@@ -1,0 +1,98 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{潘振威}
+
+\basicInfo{
+  \email{seasons.poon@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 158-767-00020} \textperiodcentered\ }
+
+\section{\faUser\ 个人概述}
+  \begin{itemize}
+    \item 4 年公司内部解决方案、Web 服务 API 集成和基于 Web 的应用程序的经验
+    \item 表达能力强，能够将复杂的想法转化为可行的结果;实现业务目标并与客户、供应
+商,业务侧和合作伙伴建立牢固的关系
+    \item 积极主动的团队建设者和战术规划者，能够吸引并确保跨组织级别的牢固工作关系
+  \end{itemize}
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{深圳市米生鑫科技有限公司} }{2021年9月 -- 至今}
+\role{后台开发工程师}
+
+\begin{itemize}
+  \item 构建国内/海外聚合支付平台，聚合国内(微信支付，支付宝，银联)和海外主要 支付渠道(Google Wallet，Apple IAP)，为国内(山姆)和海外商户(HOK， PUBG)提供一点接入和对账的服务能力，降低商户独立对接渠道技术成本和财务对账成本
+  \begin{itemize}
+    \item 支付转化率提高至80\%
+  \end{itemize}
+  \item 设计并构建 webhook 支付通知平台，保证交易稳定性，解耦支付逻辑与通知，提高系统整体可靠性
+  \begin{itemize}
+    \item 系统可靠性提升至99\%
+  \end{itemize}
+  \item 设计并构建延迟系统，设置申诉冻结期，减少用户避开惩罚情况
+  \begin{itemize}
+    \item 彻底防止用户白嫖情况
+  \end{itemize}
+\end{itemize}
+
+\datedsubsection{\textbf{软通动力} } {2020年4月 -- 2021年9月}
+\role{后台开发工程师}
+\begin{onehalfspacing}
+分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\begin{itemize}
+  \item 设计并搭建内容审核平台，服务于现有线下及新生产品的一套基础运营管理系统。 提供审核、质检和统计功能，进行信息二次过滤、优质信息推荐，提供统计信息进行业务模型更新迭代、训练。对打击量进行多维度关注，对业务内容的健康度，打击，审核准确率进行把控，避免发生策略误打，影响业务的场景
+  \begin{itemize}
+    \item 红线违规的处置时效控制在5分钟以内，打击漏过率保持在5\%以内
+  \end{itemize}
+  \item 安全平台，通过构建串联、旁路系统，针对业务侧全量流水进行审核打击，快速策 略上线。对违规行为(涉黄，涉政)内容，账号进行重点打击; 异常行为关注，构建蜜罐了解黑产的手段方式。对上线策略打击数据进行随机抽样，进行人工审核判定，得出实时的准确率，健康度，评估策略准确率
+  \begin{itemize}
+    \item 黑市QQ价格上涨10倍
+  \end{itemize}
+\end{itemize}
+\end{onehalfspacing}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: Golang
+  \item Database: MySQL, Redis, PostgreSQL
+  \item Middleware: Kafka
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{铜奖}, ACM-ICPC大学生程序设计竞赛}{2018 年 5 月}
+\datedline{\textit{一等奖}, 蓝桥杯程序设计竞赛}{2018 年4 月}
+\datedline{\textit{铜奖}, CCCC 程序设计竞赛}{2018 年 3 月}
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{广东东软学院}, 广东}{2015 -- 2019}
+\textit{学士}\ 软件工程
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 语言: 英语 - 熟练(雅思 7.5)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
