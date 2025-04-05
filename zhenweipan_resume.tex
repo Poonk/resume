@@ -1,0 +1,98 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\begin{center}
+    {\huge Zhenwei Pan} \\ \vspace{2pt} 
+\end{center}
+
+\basicInfo{
+  \email{seasons.poon@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 158-767-00020} \textperiodcentered\ }
+
+\section{\faUser\ Profile}
+\begin{itemize}
+    \item Dedicated backend developer with 4 years of experience in architecting scalable solutions and integrating webservice APIs.
+    \item Proficient in various programming languages and technologies, emphasizing Golang for effective and reliable software development.
+    \item Adept at working with various database systems such as MySQL, Redis, and PostgreSQL, ensuring seamless data management and retrieval.
+    \item Experienced in using middleware like Kafka for handling real-time data streaming and asynchronous communication, enhancing system scalability and performance.
+    \item Proven track record in architecting and implementing technical solutions that drive business growth and improve operational efficiency.
+    \item Strong communicator, skilled in translating complex technical concepts into actionable plans and build strong relationships with clients, suppliers, and cross-functional teams.
+\end{itemize}
+
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, Canada}{2025 -- Present}
+\textit{Master student} in Electronics Engineering (EE), expected June 2026
+\datedsubsection{\textbf{Neusoft Institute Guangdong}, Guangdong, China}{2015 -- 2019}
+\textit{B.S.} in Software Engineering
+
+\section{\faCogs\ Technical Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: Golang, C++
+  \item Database: MySQL, Redis, PostgreSQL
+  \item Middleware: Kafka
+  \item Version Control: Git
+  \item Tools: Docker, Kubernetes, CI/CD tools
+\end{itemize}
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{Shenzhen Mishengxin Technology Co., Ltd.} Shenzhen, China}{Sep. 2021 -- Aug. 2025}
+\role{Golang}{Backend Development Engineer}
+\begin{onehalfspacing}
+    Cross-border payment channel construction, payment notification system optimization, delay system design
+\begin{itemize}
+  \item Built a domestic and overseas integrated payment platform, aggregating major domestic (WeChat Pay, Alipay, UnionPay) and overseas payment channels (Google Wallet, Apple IAP), providing one-stop access and reconciliation services for domestic (Sam's Club) and overseas merchants (HOK, PUBG), significantly reducing their technical and financial reconciliation costs.
+  \begin{itemize}
+      \item Increased payment conversion rates by 80\% through innovative platform design.
+  \end{itemize}
+  \item Designed and constructed a webhook payment notification platform to ensure transaction stability, decoupling payment logic from notifications and enhancing overall system reliability.
+  \begin{itemize}
+      \item Increased the success rate of payment notifications to 99\%.
+  \end{itemize}
+  \item Engineered a delay system with a complaint freeze period to mitigate user circumvention of penalties.
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{Isoftstone Co., Ltd.} Shenzhen, China}{July. 2019 -- Sep. 2021}
+\role{Golang}{Backend Development Engineer}
+\begin{onehalfspacing}
+    System design and functional development, black industry confrontation, data drive and effect verification
+\end{onehalfspacing}
+\begin{itemize}
+  \item Created a content rating system from scratch for online content providers for both existing and new products, providing review, quality control, and statistical functions; enabled information filtering, quality information recommendation, and business updates
+  \begin{itemize}
+      \item Increased user engagement time from an average of less than 10 minutes to over 30 minutes.
+  \end{itemize}
+  \item Implemented a real-time strategy enforcement system to block intended targets and prevent unlawful economic activities in the informal sector; conducted a random sampling of data to evaluate and provide real-time accuracy and health metrics
+  \begin{itemize}
+      \item The trading price of QQ accounts increased by 10 times on the black market after implementing the system.
+  \end{itemize}
+  \item Developed a security platform for business content security; used data labelling and algorithms to target illegal and informal activities; stored and provided real-time access to extensive data sets
+  \item Designed the system to handle up to ten million QPS during peak periods; implemented Cross-Zone Disaster
+Recovery and Multi-Site High Availability on the Cloud
+\end{itemize}
+
+
+
+\section{\faHeartO\ Honors and Awards}
+\datedline{\textit{\nth{20}}, Tencent Programming Contest }{Sep. 2022}
+\datedline{\textit{Bronze Prize}, Award on ACM-ICPC(Guangxi, China) }{May. 2018}
+\datedline{\textit{\nth{1} Prize}, Award on Lanqiao Cup }{Jun. 2018}
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item Languages: English - Fluent(IELTS-7.5), Mandarin - Native speaker, Cantonese - Native speaker
+  \item Interests: Taekwondo
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
